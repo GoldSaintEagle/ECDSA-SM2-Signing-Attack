@@ -8,6 +8,8 @@ Objectives:
 * Generate valid signature(s) without private key
 * Recover random relationship
 
+Here SM2 is implemented in "crypto/sm/sm2" and SM3 in "crypto/sm/sm3". Please change to your own GM implementation folder.
+
 #### Recover Private Key
 
 * Recover the private key when signing with insure randoms
