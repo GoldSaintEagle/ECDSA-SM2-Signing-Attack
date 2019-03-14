@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="891eec4c-3901-4ed5-86ce-5f834ce88fe2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../aes/aes_gcm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/aes_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/asm_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/asm_ppc64le.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/asm_s390x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/cbc_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/cipher_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/cipher_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/cipher_ppc64le.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/cipher_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/ctr_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/gcm_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/gcm_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/modes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../aes/modes_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/benchmark_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/cbc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/cbc_aes_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/cfb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/cfb_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/cipher_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/common_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/ctr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/ctr_aes_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/ctr_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/gcm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/gcm_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/io.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/ofb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/ofb_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/xor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cipher/xor_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../des/block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../des/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../des/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../des/des_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../des/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../dsa/dsa.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../dsa/dsa_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ecdsa/ecdsa.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ecdsa/ecdsa_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ecdsa/testdata/SigVer.rsp.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/elliptic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/elliptic_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p224.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p224_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p256.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p256_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p256_asm_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p256_asm_s390x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p256_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p256_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p256sm2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../elliptic/p256sm2new.go.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../hmac/hmac.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../hmac/hmac_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../internal/cipherhw/asm_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../internal/cipherhw/asm_s390x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../internal/cipherhw/cipherhw_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../internal/cipherhw/cipherhw_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../internal/cipherhw/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../internal/cipherhw/generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block_386.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block_amd64p32.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block_arm.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block_decl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block_ppc64le.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../md5/md5block_s390x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/eagain.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/rand.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/rand_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/rand_openbsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/rand_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/rand_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/rand_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rand/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc4/rc4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc4/rc4_386.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc4/rc4_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc4/rc4_amd64p32.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc4/rc4_arm.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc4/rc4_asm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc4/rc4_ref.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc4/rc4_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rsa/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rsa/pkcs1v15.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rsa/pkcs1v15_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rsa/pss.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rsa/pss_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rsa/rsa.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rsa/rsa_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rsa/testdata/pss-vect.txt.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/fallback_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/issue15617_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_386.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_amd64p32.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_arm.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_decl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha1/sha1block_s390x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/fallback_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block_386.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block_decl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block_ppc64le.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha256/sha256block_s390x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/fallback_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512block_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512block_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512block_decl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512block_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512block_ppc64le.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512block_s390x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sha512/sha512block_s390x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm2/p256.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm2/p256.go.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm2/p256_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm2/p256_asm_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm2/p256_asm_amd64.s.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm2/sm2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm2/sm2_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm3/sm3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm3/sm3_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm3/sm3block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm3/sm3block_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm3/sm3block_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm4/sm4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sm/sm4/sm4_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../subtle/constant_time.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../subtle/constant_time_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/alert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/cipher_suites.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/conn_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/generate_cert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/handshake_client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/handshake_client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/handshake_messages.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/handshake_messages_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/handshake_server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/handshake_server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/handshake_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/key_agreement.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/prf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/prf_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv10-ClientCert-ECDSA-ECDSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv10-ClientCert-ECDSA-RSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv10-ClientCert-RSA-ECDSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv10-ClientCert-RSA-RSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv10-ECDHE-ECDSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv10-ECDHE-RSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv10-RSA-RC4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv11-ECDHE-ECDSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv11-ECDHE-RSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv11-RSA-RC4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-AES128-GCM-SHA256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-AES128-SHA256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-AES256-GCM-SHA384" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ALPN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ALPN-NoMatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ClientCert-ECDSA-ECDSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ClientCert-ECDSA-RSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ClientCert-RSA-AES256-GCM-SHA384" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ClientCert-RSA-ECDSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ClientCert-RSA-RSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ECDHE-ECDSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ECDHE-ECDSA-AES-GCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ECDHE-ECDSA-AES128-SHA256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ECDHE-ECDSA-AES256-GCM-SHA384" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ECDHE-ECDSA-CHACHA20-POLY1305" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ECDHE-RSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ECDHE-RSA-AES128-SHA256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-ECDHE-RSA-CHACHA20-POLY1305" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-RSA-RC4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-RenegotiateOnce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-RenegotiateTwice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-RenegotiateTwiceRejected" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-RenegotiationRejected" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-SCT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Client-TLSv12-X25519-ECDHE-RSA-AES-GCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-SSLv3-RSA-3DES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-SSLv3-RSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-SSLv3-RSA-RC4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv10-ECDHE-ECDSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv10-RSA-3DES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv10-RSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv10-RSA-RC4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv11-FallbackSCSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv11-RSA-RC4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-ALPN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-ALPN-NoMatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-CipherSuiteCertPreferenceECDSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-CipherSuiteCertPreferenceRSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-ClientAuthRequestedAndECDSAGiven" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-ClientAuthRequestedAndGiven" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-ClientAuthRequestedNotGiven" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-ECDHE-ECDSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-IssueTicket" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-IssueTicketPreDisable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-RSA-3DES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-RSA-AES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-RSA-AES-GCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-RSA-AES256-GCM-SHA384" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-RSA-RC4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-Resume" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-ResumeDisabled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-SNI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-SNI-GetCertificate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-SNI-GetCertificateNotFound" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/testdata/Server-TLSv12-X25519-ECDHE-RSA-AES-GCM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/ticket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/tls.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tls/tls_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/ca.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/cacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/cert_pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/ecdsacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/ecjava.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/gorootcert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/nodecacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/nodejscert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/nodepeercert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/peer.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/peercert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/pem_decrypt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/pem_decrypt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/pkcs1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/pkcs8.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/pkcs8_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/pkix/pkix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/req.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_bsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_cgo_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_darwin_arm_gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_darwin_armx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_darwin_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_nacl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_nocgo_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_plan9.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_solaris.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_unix_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/root_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/rootcert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/sec1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/sec1_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/sha2_windows_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/test-file.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/testdata/test-dir.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/testdata/tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/verify.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/verify_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/x509.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/x509_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509/x509_test_import.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/cert_pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/pem_decrypt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/pem_decrypt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/pkcs1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/pkcs8.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/pkcs8_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/pkix/pkix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_bsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_cgo_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_darwin_arm_gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_darwin_armx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_darwin_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_nacl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_nocgo_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_plan9.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_solaris.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_unix_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/root_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/sec1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/sec1_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/sha2_windows_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/test-file.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/testdata/test-dir.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/verify.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/verify_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/x509.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/x509_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../x509_old/x509_test_import.go" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SigAttack$TestGenerateECDSASig_in_attack_test_go.out" NAME="TestGenerateECDSASig in attack_test.go Coverage Results" MODIFIED="1551937957553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-108288945">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="8" />
+          <entry key="pem" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="8" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="1732" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="1732" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1495075004">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="3300" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="3300" />
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="35" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/attack.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2055">
+              <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../go/src/math/big/int.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6420">
+              <caret line="433" selection-start-line="433" selection-end-line="433" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/attack_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
+              <folding>
+                <element signature="e#19#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../go/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11625">
+              <caret line="791" selection-start-line="791" selection-end-line="791" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../go/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7620">
+              <caret line="512" selection-start-line="512" selection-end-line="512" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inverse</find>
+      <find>mod</find>
+      <find>Mod</find>
+      <find>new</find>
+      <find>sub</find>
+      <find>PublicKey</find>
+      <find>ma</find>
+      <find>MarshalSig</find>
+      <find>sign</find>
+      <find>ecdsa</find>
+      <find>Sign</find>
+      <find>ecdsaSignatur</find>
+      <find>ecdsaSignature</find>
+      <find>tmp</find>
+      <find>sm.p</find>
+      <find>point</find>
+      <find>multi</find>
+      <find>multip</find>
+      <find>hash</find>
+      <find>WeakECDSASign</find>
+      <find>priv.</find>
+      <find>ScalarBaseMult</find>
+      <find>RecoverSM2PrivKeyFromLinearRelationship</find>
+      <find>ScalarMult</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../libcryptosm-golang" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../libcryptosmtest" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/attqack_test.go" />
+        <option value="$PROJECT_DIR$/attack.go" />
+        <option value="$PROJECT_DIR$/attack_test.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.0/" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="955" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SigAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SigAttack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SigAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="SigAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.5" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="SigAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.5" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SigAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.5" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SigAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.5" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="ecdsa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SigAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.5" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="x509" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552471004675" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestMyTest in SigAttack">
+    <configuration name="TestECDSAGenerateSignatureAttack in SigAttack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="SigAttack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="SigAttack" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestECDSAGenerateSignatureAttack$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestECDSAZeroHashAttack in SigAttack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="SigAttack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="SigAttack" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestECDSAZeroHashAttack$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMyTest in SigAttack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="SigAttack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="SigAttack" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestMyTest$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRecoverSM2PrivKeyFromLinearRelationship in SigAttack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="SigAttack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="SigAttack" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestRecoverSM2PrivKeyFromLinearRelationship$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSM2GenerateSignatureAttack in SigAttack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="SigAttack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="SigAttack" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestSM2GenerateSignatureAttack$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test SigAttack" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="SigAttack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/attack_test.go" />
+      <pattern value="^TestGenerateECDSASig$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.go test SigAttack" />
+      <item itemvalue="Go Test.TestMyTest in SigAttack" />
+      <item itemvalue="Go Test.TestECDSAZeroHashAttack in SigAttack" />
+      <item itemvalue="Go Test.TestSM2GenerateSignatureAttack in SigAttack" />
+      <item itemvalue="Go Test.TestECDSAGenerateSignatureAttack in SigAttack" />
+      <item itemvalue="Go Test.TestRecoverSM2PrivKeyFromLinearRelationship in SigAttack" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestMyTest in SigAttack" />
+        <item itemvalue="Go Test.TestECDSAGenerateSignatureAttack in SigAttack" />
+        <item itemvalue="Go Test.TestSM2GenerateSignatureAttack in SigAttack" />
+        <item itemvalue="Go Test.TestRecoverSM2PrivKeyFromLinearRelationship in SigAttack" />
+        <item itemvalue="Go Test.TestECDSAZeroHashAttack in SigAttack" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="891eec4c-3901-4ed5-86ce-5f834ce88fe2" name="Default Changelist" comment="" />
+      <created>1551846048362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551846048362</updated>
+      <workItem from="1551846051231" duration="6052000" />
+      <workItem from="1551928661355" duration="5361000" />
+      <workItem from="1551938212865" duration="4710000" />
+      <workItem from="1552009526083" duration="1888000" />
+      <workItem from="1552293173826" duration="7440000" />
+      <workItem from="1552355696503" duration="6635000" />
+      <workItem from="1552376817578" duration="6847000" />
+      <workItem from="1552459689587" duration="9932000" />
+      <workItem from="1552529394320" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSM2GenerateSignatureAttack_in_SigAttack - 2019.03.13 at 17h 11m 53s.xml">
+      <configuration name="TestSM2GenerateSignatureAttack in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSM2GenerateSignatureAttack_in_SigAttack - 2019.03.13 at 17h 12m 46s.xml">
+      <configuration name="TestSM2GenerateSignatureAttack in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestECDSAGenerateSignatureAttack_in_SigAttack - 2019.03.13 at 17h 12m 50s.xml">
+      <configuration name="TestECDSAGenerateSignatureAttack in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMyTest_in_SigAttack - 2019.03.13 at 17h 16m 38s.xml">
+      <configuration name="TestMyTest in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMyTest_in_SigAttack - 2019.03.13 at 17h 16m 56s.xml">
+      <configuration name="TestMyTest in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMyTest_in_SigAttack - 2019.03.13 at 17h 20m 26s.xml">
+      <configuration name="TestMyTest in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMyTest_in_SigAttack - 2019.03.13 at 17h 20m 41s.xml">
+      <configuration name="TestMyTest in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMyTest_in_SigAttack - 2019.03.13 at 17h 27m 29s.xml">
+      <configuration name="TestMyTest in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMyTest_in_SigAttack - 2019.03.13 at 17h 28m 08s.xml">
+      <configuration name="TestMyTest in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMyTest_in_SigAttack - 2019.03.13 at 17h 30m 02s.xml">
+      <configuration name="TestMyTest in SigAttack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49462000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="955" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976826" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32908458" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32908458" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../../go/src/crypto/ecdsa/ecdsa.go</url>
+          <line>264</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../../go/src/crypto/sm/sm2/sm2.go</url>
+          <line>276</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/attack.go</url>
+          <line>137</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>r.Cmp(N)</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rand.Bytes()</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>newsig.S</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6513736fb97fba490679cb33e59bd6b/Message/MessageTemp/80a32a9ac79613fac10c42306831eb90/File/certificate.pem" />
+    <entry file="file://$PROJECT_DIR$/../../../go/src/crypto/ecdsa/ecdsa_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4305">
+          <caret line="302" column="68" selection-start-line="302" selection-start-column="68" selection-end-line="302" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/crypto/sm/sm2/sm2_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/cloudflare/cfssl/vendor/golang.org/x/crypto/acme/jws.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="138" column="9" lean-forward="true" selection-start-line="131" selection-start-column="8" selection-end-line="138" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/crypto/sm/sm2/p256.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="232" column="14" selection-start-line="232" selection-start-column="11" selection-end-line="232" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/errors/errors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/crypto/sm/sm2/p256_amd64.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5235">
+          <caret line="354" column="26" selection-start-line="354" selection-start-column="26" selection-end-line="354" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/crypto/x509/x509.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28920">
+          <caret line="1950" column="46" selection-start-line="1950" selection-start-column="4" selection-end-line="1950" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/hyperledger/fabric/localdep/crypto-old/ecdsa/ecdsa.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="257" column="45" lean-forward="true" selection-start-line="257" selection-start-column="45" selection-end-line="257" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/crypto/elliptic/elliptic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="267" column="40" selection-start-line="267" selection-start-column="26" selection-end-line="267" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/crypto/ecdsa/ecdsa.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="229" column="5" selection-start-line="229" selection-start-column="5" selection-end-line="229" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/crypto/sm/sm2/sm2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="218" column="35" lean-forward="true" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="35" />
+          <folding>
+            <element signature="e#223#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/math/big/int.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6420">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11625">
+          <caret line="791" selection-start-line="791" selection-end-line="791" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7620">
+          <caret line="512" selection-start-line="512" selection-end-line="512" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attack_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
+          <folding>
+            <element signature="e#19#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
