@@ -14,7 +14,7 @@ Here SM2 is implemented in "crypto/sm/sm2" and SM3 in "crypto/sm/sm3". Please ch
 
 * Recover the private key when signing with insure randoms
   Requirement:
-  * Random relationship (possible for all `r2 = f(r1)`; here only consider `r2 = a * r1 + b` as an example)
+  * Random linear relationship (`r2 = a * r1 + b`)
   * Two valid signatures
 
 * Recover the private key when random is leaked
