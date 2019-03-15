@@ -1,6 +1,6 @@
 # ECDSA-SM2-Signing-Attack
 
-Attacking ECDSA/SM2 signature.
+Attacking ECDSA/SM2 signature. A detailed Chinese description is in [HERE](https://zhuanlan.zhihu.com/p/59273695). 
 
 Objectives:
 

@@ -86,13 +86,13 @@ func RecoverECDSAPrivKeyFromLinearRelationship(pub *ecdsa.PublicKey, digest []by
 	d1 := new(big.Int).Sub(b, e) // b - m * (s2^-1 - a * s1^-1)
 	d1.Mod(d1, N)
 
-	d2 := new(big.Int).Sub(new(big.Int).Mul(sig2.R, w2), new(big.Int).Mul(sig1.R, w1)) // r2 * s2^-1 - r1 * a * a * s1^-1
+	d2 := new(big.Int).Sub(new(big.Int).Mul(sig2.R, w2), new(big.Int).Mul(sig1.R, w1)) // r2 * s2^-1 - r1 * a * s1^-1
 	if d2.Sign() == 0 {
 		return nil
 	}
 	d2.ModInverse(d2, N)
 
-	D := new(big.Int).Mul(d1, d2) // (b - m * (s2^-1 - a * s1^-1)) / (r2 * s2^-1 - r1 * a * a * s1^-1)
+	D := new(big.Int).Mul(d1, d2) // (b - m * (s2^-1 - a * s1^-1)) / (r2 * s2^-1 - r1 * a * s1^-1)
 	D.Mod(D, N)
 
 	priv := new(ecdsa.PrivateKey)

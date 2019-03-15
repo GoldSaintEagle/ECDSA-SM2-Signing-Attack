@@ -214,38 +214,3 @@ func TestECDSAGenerateSignatureAttack(t *testing.T) {
 	return
 }
 
-
-func TestMyTest(t *testing.T) {
-	priv, _ := sm2.GenerateKey(rand.Reader)
-
-	a := new(big.Int).SetInt64(1)
-	b := new(big.Int).SetInt64(0)
-
-	r1, s1, hashed := SM2GenerateSignatureAttack(&priv.PublicKey, a, b)
-	sig1 := MarshalSig(r1, s1)
-
-	r2, s2, _ := sm2.Sign(rand.Reader, priv, hashed)
-	sig2 := MarshalSig(r2, s2)
-
-	ra, rb := RecoverSM2RandomRelationship(sig1, sig2, priv.Params().N)
-	if rb == nil {
-		fmt.Printf("fail to generate relationship.\n")
-		return
-	}
-	fmt.Printf("Random relationship : %v %v\n", ra, rb)
-
-
-	c := priv.Params()
-	x, _ := c.ScalarBaseMult(rb.Bytes())
-	fmt.Printf("%v\n%v\n", r2, x.Add(x, new(big.Int).SetBytes(hashed)))
-
-	rpriv := RecoverSM2PrivKeyFromLinearRelationship(&priv.PublicKey, sig1, sig2, b, a)
-	if rpriv == nil {
-		fmt.Printf("Unable to recover.\n")
-	} else {
-		fmt.Printf(" original priv: %v\n", priv.D)
-		fmt.Printf("recovered priv: %v\n", rpriv.D)
-	}
-
-	return
-}
