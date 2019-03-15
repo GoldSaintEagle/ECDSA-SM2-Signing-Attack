@@ -68,8 +68,8 @@ func TestRecoverECDSAPrivKeyFromLinearRelationship(t *testing.T) {
 	hashed := []byte("12345678")
 
 	// Random relationship
-	a := new(big.Int).SetInt64(0)
-	b := new(big.Int).SetInt64(0)
+	a := new(big.Int).SetInt64(22)
+	b := new(big.Int).SetInt64(34)
 	k := make([]byte, priv.Params().BitSize/8+8)
 	_, err = io.ReadFull(rand.Reader, k)
 	if err != nil {
@@ -166,12 +166,16 @@ func TestRecoverSM2PrivKeyFromLinearRelationship(t *testing.T) {
 
 func TestRecoverSM2RandomFromPrivateKey(t *testing.T) {
 	priv, _ := sm2.GenerateKey(rand.Reader)
-	r := new(big.Int).SetInt64(222)
+	k := new(big.Int).SetInt64(222)
 	hashed := []byte("12345678")
 
-	r, s := WeakSM2Sign(r, priv, hashed)
+	r, s := WeakSM2Sign(k, priv, hashed)
 	sig := MarshalSig(r, s)
-	k := RecoverSM2RandomFromPrivateKey(priv, sig)
+	rk := RecoverSM2RandomFromPrivateKey(priv, sig)
+	if rk.Cmp(k) != 0 {
+		t.Errorf("Error recovery frandom")
+		return
+	}
 	fmt.Printf("Rand : %v.\n", k)
 	return
 }
@@ -184,10 +188,14 @@ func TestECDSAZeroHashAttack(t *testing.T) {
 	r, s, _ := ecdsa.Sign(rand.Reader, priv, hashed)
 	sig := MarshalSig(r, s)
 	fmt.Printf("sig1: %v\n", sig)
-	a := new(big.Int).SetInt64(222)
+	a := new(big.Int).SetInt64(3)
 	sig2 := ECDSAZeroHashAttack(sig, a, priv.Curve)
 	fmt.Printf("sig2: %v\n", sig2)
-	fmt.Printf("verify sig2: %v\n", ecdsa.Verify(&priv.PublicKey, hashed, sig2.R, sig2.S))
+	if !ecdsa.Verify(&priv.PublicKey, hashed, sig2.R, sig2.S) {
+		t.Errorf("Error verifying")
+		return
+	}
+	fmt.Printf("sig2 pass verification.\n")
 	return
 }
 
@@ -198,7 +206,11 @@ func TestSM2GenerateSignatureAttack(t *testing.T) {
 	b := new(big.Int).SetInt64(2)
 
 	r, s, hashed := SM2GenerateSignatureAttack(&priv.PublicKey, a, b)
-	fmt.Printf("Sig verify: %v\n", sm2.Verify(&priv.PublicKey, hashed, r, s))
+	if !sm2.Verify(&priv.PublicKey, hashed, r, s) {
+		t.Errorf("Error verifying")
+		return
+	}
+	fmt.Printf("generated sig pass verification.\n")
 	return
 }
 
@@ -210,7 +222,11 @@ func TestECDSAGenerateSignatureAttack(t *testing.T) {
 	b := new(big.Int).SetInt64(444)
 
 	r, s, hashed := ECDSAGenerateSignatureAttack(&priv.PublicKey, a, b)
-	fmt.Printf("Sig verify: %v\n", ecdsa.Verify(&priv.PublicKey, hashed, r, s))
+	if !ecdsa.Verify(&priv.PublicKey, hashed, r, s) {
+		t.Errorf("Error verifying")
+		return
+	}
+	fmt.Printf("generated sig pass verification.\n")
 	return
 }
 
